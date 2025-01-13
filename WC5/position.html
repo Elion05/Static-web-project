@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        div {
+            color: aquamarine;
+            position: relative;
+        }
+        .een {
+            left: 20px;
+            margin: 0;
+            z-index: 10;
+        }
+        .een p {
+            color: black;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+        }
+        .twee{
+            position: sticky;       
+         }
+    </style>
+</head>
+<body>
+    <div class="een">
+        This is a div
+        <p>Dit zit in div 1</p>
+    </div>
+    <div class="twee">12345</div>
+    <div class="drie">678910</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    color: aquamarine;
+    background-color: white;
+}
+h1{
+    background-color: blueviolet;
+     
+}
+p{
+    background-color: red;
+    
+}
+a{
+background-color: fuchsia;
+}
+.navigatie {
+background-color: aqua;
+}
+a:hover{
+    background-color: aqua;
+}
