@@ -1,0 +1,211 @@
+
+.body-homepage{
+    line-height: 1.5;
+    background-color:rgb(0, 0, 0);
+    font-family: 'Poppins',sans-serif;
+    background-image: url(/moviewebsite/fotos/voorpagina2.jpg);
+}
+.navigatiebar {
+    background: rgb(133, 76, 76);
+    padding: 25px;   
+}
+.navidiv{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    left: 40px;
+}
+.navidiv ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 5;
+}
+.logo-filmdetail{
+font-size: x-large;
+font-family: 'Courier New', Courier, monospace;
+float: left;
+}
+.navidiv ul li {
+    margin: 0 15px;
+}
+.navidiv ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 15px;
+}
+.homepage-nav {
+    background: rgb(135, 110, 46);
+}
+.homepage-nav .logo a {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+.filmdetail-nav {
+    background: rgb(43, 100, 157);
+}
+
+.filmdetail-nav .logo a {
+    color: rgb(255, 255, 255);
+}
+.filmdetail-nav ul {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.filmdetail-nav li a {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 15px;
+}
+.filmdetail-container{
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+   padding: 20px;
+}
+.movieposter {
+    flex: 0 0 auto;
+    padding: 20px;
+    position: relative;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.filmdetail_container{
+display: flex;
+align-items: center;
+}
+.filmdetail-video{
+    display: flex;
+   
+
+}
+.filmdetail-video video{
+    max-width: 100%;
+    width: 500px;
+}
+.filmdetail-links{
+    color: rgb(59, 77, 93);
+    text-decoration: none;
+    font-weight: bold;
+}
+.filmdetail-body{
+    background-color: rgb(108, 111, 110);
+}
+.container{
+    padding: 2rem;
+}
+  
+   .buttonvol2{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.figure-container{
+    display: flex;
+    order: 2px solid #000000;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: #847d7d;
+    right: 10%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+figcaption{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000000;
+}
+.h22{
+    color: white;
+}
+.logincollor{
+    background-color: black
+}
+@import url('https:.//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    background-color: rgb(43, 66, 61);
+    margin: auto;
+}
+.footer{
+    background-color: rgb(25, 33, 33);
+    padding: 70px 0;
+}
+
+.footerul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+    font-weight: 500;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    color: rgb(160, 144, 123);
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: #d4cdcd;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:wheat;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.paginatie{
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+   left: 39%;
+}
+.paginatie a{
+    color: rgb(195, 90, 90);
+    padding:8px ; 
+}
+.paginatie a:hover{
+background-color: rgb(59, 161, 161);
+border-color: rgb(255, 255, 255);
+}
+

@@ -1,0 +1,130 @@
+body{
+background-color: rgb(185, 100, 100);
+}    
+.search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+}
+.edit-knop{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.paginatie{
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+   left: 39%;
+  top: 100px;
+}
+.paginatie a{
+    color: rgb(0, 0, 0);
+    padding:8px ; 
+}
+.paginatie a:hover{
+background-color: aqua;
+border-color: black;
+}
+table{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+background-color: rgb(105, 105, 105);
+color: rgb(0, 0, 0);
+}
+.newmovie{
+color: rgb(0, 0, 0);
+}
+.body-formulier{
+    background-color: gray;
+
+}
+.add-5{
+width: 40px;
+}
+.newmovie {
+    display: block;
+    text-align: center;
+    margin: 20px auto; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d49b9b;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+.body-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container{
+    background-color: wheat;
+    padding: 15px;
+    border-radius: 10px;
+    width: 280px;
+}
+.form-container h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.form-container label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-container input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+}
+.form-container input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+}
+        
+
